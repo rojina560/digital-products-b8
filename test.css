@@ -42,22 +42,87 @@ align-items: center;
     height: 100vh;
     background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.744));
 }
-.banner-img img{
+.banner-img img,.about-img{
     width: 500px;
-    height: 400px;
+    
 }
-.banner-text h1{
+.title{
     font-size: 50px;
 }
-.banner-text p{
+.description {
     color: rgb(229, 229, 7);
     font-size: 20px;
     margin: 15px 0;
 }
-button{
+.btn{
     color:white ;
-    padding: 15px 20px;
+    padding:10px 15px;
     background: red;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
+    font-size: 20px;
 }
+/* info section start here  */
+ .about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ /* servics  section code  */
+ .service-container{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(45deg,hsla(193, 82%, 55%, 0.527),#3196d167);
+    padding: 50px 0;
+ }
+ .titles{
+    font-size: 40px;
+    text-align: center;
+    margin: 50px 0;
+ }
+ .box{
+    width: 230px;
+    background: pink;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 4px 10px 15px red;
+
+ }
+ .box img{
+    width: 70px;
+ }
+ .box p{
+    margin: 15px 0;
+ }
+ .box-btn{
+    background: gray;
+
+ }
+ /* footer section  */
+ footer{
+    background-color: rgb(0, 0, 0);
+    
+ }
+ .footer-container{
+    display: flex;
+    justify-content: space-around;
+   margin: 0 250px ;
+    color: white;
+    border-bottom: 1px solid gray;
+   
+ }
+  .footer-text{    
+    text-align: center;
+    width: 220px;
+    padding: 50px 0;
+    
+  }
+  .footer-text h2{
+    padding: 15px 0;
+
+  }
+ .copy{
+    color: wheat;
+    text-align: center;
+    padding: 30px 0;
+ }
